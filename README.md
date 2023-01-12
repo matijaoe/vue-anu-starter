@@ -1,6 +1,8 @@
-# Vue ✕ UnoCSS starter template
+# Vue ✕ Anu UI starter template
 
+<img width="840" alt="CleanShot 2023-01-12 at 19 45 31@2x" src="https://user-images.githubusercontent.com/46557266/212152668-7ed48ff0-35be-492b-a8bc-197812b7ebb4.png">
 <br>
+
 
 ## Features
 

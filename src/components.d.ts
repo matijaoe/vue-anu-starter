@@ -7,17 +7,13 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    AB: typeof import('anu-vue')['AB']
     ABtn: typeof import('anu-vue')['ABtn']
     AChip: typeof import('anu-vue')['AChip']
-    ADialog: typeof import('anu-vue')['ADialog']
     ADrawer: typeof import('anu-vue')['ADrawer']
     AInput: typeof import('anu-vue')['AInput']
     ASwitch: typeof import('anu-vue')['ASwitch']
-    Icon: typeof import('./components/Icon.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
-    TheInput: typeof import('./components/TheInput.vue')['default']
   }
 }

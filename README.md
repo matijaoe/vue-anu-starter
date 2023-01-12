@@ -1,4 +1,4 @@
-# Vue ✕ Anu UI starter template
+# Vue ✕ Anu starter template
 
 <img width="840" alt="CleanShot 2023-01-12 at 19 45 31@2x" src="https://user-images.githubusercontent.com/46557266/212152668-7ed48ff0-35be-492b-a8bc-197812b7ebb4.png">
 <br>
@@ -10,7 +10,7 @@
 - 🗂 File based routing
 - 📦 Auto imported components
 - 🫧 Auto imported APIs
-- 🫶 [Anu UI](https://anu-vue.netlify.app/) - DX focused utility based🫶🏻 vue component library built on top of UnoCSS
+- 🫶 [Anu](https://anu-vue.netlify.app/) - DX focused utility base vue component library built on top of UnoCSS
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 - 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 - 🍍 [Pinia](https://pinia.vuejs.org/) - The Vue Store that you will enjoy using
@@ -26,6 +26,7 @@
 
 ### UI Frameworks
 
+- [Anu](https://anu-vue.netlify.app/) - Component library built on top of UnoCSS
 - [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine
   - [presetUno](https://github.com/unocss/unocss/tree/main/packages/preset-uno) - Tailwind / Windi CSS compact preset
   - [presetAttributify](https://github.com/unocss/unocss/tree/main/packages/preset-attributify) - Provides Attributify Mode to other presets and rules

@@ -26,8 +26,8 @@ const drawerStore = useDrawerStore()
 
       <ASwitch
         v-model="isDark"
-        on-icon="i-bx-bxs-sun"
-        off-icon="i-bx-bxs-moon"
+        off-icon="i-bx-bxs-sun"
+        on-icon="i-bx-bxs-moon"
         variant="outline"
         color="primary"
         text-sm

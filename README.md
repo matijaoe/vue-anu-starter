@@ -1,6 +1,6 @@
 # Vue ✕ Anu starter template
 
-<img width="840" alt="CleanShot 2023-01-12 at 19 45 31@2x" src="https://user-images.githubusercontent.com/46557266/212152668-7ed48ff0-35be-492b-a8bc-197812b7ebb4.png">
+<img width="840" alt="Screenshot" src="https://user-images.githubusercontent.com/46557266/212152668-7ed48ff0-35be-492b-a8bc-197812b7ebb4.png">
 
 
 ## Features
@@ -28,6 +28,7 @@
   - [`presetUno`](https://github.com/unocss/unocss/tree/main/packages/preset-uno) - Tailwind / Windi CSS compact preset
   - [`presetAttributify`](https://github.com/unocss/unocss/tree/main/packages/preset-attributify) - Provides Attributify Mode to other presets and rules
   - [`presetTypography`](https://github.com/unocss/unocss/tree/main/packages/preset-typography) - The typography preset
+  - [`presetIcons`](https://github.com/unocss/unocss/tree/main/packages/preset-icons) - Use any icons with Pure CSS for UnoCSS
   - [`presetWebFonts`](https://github.com/unocss/unocss/tree/main/packages/preset-web-fonts) - Web fonts at ease
   - [`transformerDirectives`](https://github.com/unocss/unocss/tree/main/packages/transformer-directives) - Transformer for `@apply`, `@screen` and `theme()` directives
   - [`transformerVariantGroup`](https://github.com/unocss/unocss/tree/main/packages/transformer-variant-group) - Enables the [variant group feature of Windi CSS](https://windicss.org/features/variant-groups.html) for UnoCSS
@@ -55,7 +56,7 @@
 [Create a repo from this template on GitHub](https://github.com/mat2ja/vue-starter/generate)
 
 ### Local
-Clone the template locally, with no git history (using [`unjs/giget`](https://github.com/unjs/giget))
+Clone the template locally, with no git history (powered by [`unjs/giget`](https://github.com/unjs/giget))
 
 ```bash
 npx giget gh:mat2ja/vue-anu-starter <name>
@@ -90,8 +91,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
 
-
-## Related 
+## Related
 
 - 👽 [`vue-starter`](https://github.com/mat2ja/vue-starter)
 - 🧚🏻 [`nuxt-starter`](https://github.com/mat2ja/nuxt-starter)

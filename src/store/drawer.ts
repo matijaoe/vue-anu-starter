@@ -1,5 +1,3 @@
-import { acceptHMRUpdate, defineStore } from 'pinia'
-
 export const useDrawerStore = defineStore('drawer', () => {
   let isDrawerShown = $ref(false)
 

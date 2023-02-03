@@ -1,6 +1,11 @@
 <script lang="ts" setup>
-const route = useRoute()
+definePage({
+  name: 'hi',
+})
+
 const router = useRouter()
+
+const route = useRoute('hi')
 const name = computed(() => route.params.name)
 </script>
 
@@ -28,7 +33,3 @@ const name = computed(() => route.params.name)
     </ABtn>
   </div>
 </template>
-
-<route>
-name: "hi"
-</route>

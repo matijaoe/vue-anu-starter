@@ -6,7 +6,7 @@
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/)
-- 🗂 File based routing
+- 🗂 File based routing, fully typed
 - 📦 Auto imported components
 - 🫧 Auto imported APIs
 - 🫶 [Anu](https://anu-vue.netlify.app/) - DX focused utility base vue component library built on top of UnoCSS
@@ -35,16 +35,9 @@
 - [Post CSS](https://postcss.org/)
   - [`postcss-nested`](https://github.com/postcss/postcss-nested)
 
-### Icons
+### Vite plugins
 
-- [Iconify](https://iconify.design) - Use icons from any icon set
-- [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-- Find icons on [Icônes](https://icones.netlify.app/)
-
-### Plugins
-
-- [Vue Router](https://github.com/vuejs/vue-router)
-  - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - File system based routing
+- [`unplugin-vue-router`](https://github.com/posva/unplugin-vue-router) - Automatic file based routing in with TypeScript support
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - Components auto import
 - [`unplugin-vue-macros`](https://vue-macros.sxzz.moe/) - Explore and extend more macros and syntax sugar to Vue

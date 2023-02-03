@@ -9,11 +9,12 @@ import {
   presetUno,
   presetWebFonts,
   transformerDirectives,
+  transformerVariantGroup,
 } from 'unocss'
 
 export default defineConfig({
   shortcuts: [
-    ['icon-btn', 'text-[0.95em] inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-primary !outline-none'],
+    ['icon-btn', 'text-[0.95em] inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:(opacity-100 text-primary) !outline-none'],
   ],
   theme: {
     colors: {
@@ -46,6 +47,6 @@ export default defineConfig({
   include: [/.*\/anu-vue\.js(.*)?$/, './**/*.vue', './**/*.md'],
   transformers: [
     transformerDirectives(),
-    // transformerVariantGroup(),
+    transformerVariantGroup(),
   ],
 })

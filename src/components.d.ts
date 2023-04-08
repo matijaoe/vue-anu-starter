@@ -17,6 +17,7 @@ declare module '@vue/runtime-core' {
     ASwitch: typeof import('anu-vue')['ASwitch']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TheDrawer: typeof import('./components/TheDrawer.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
   }
 }

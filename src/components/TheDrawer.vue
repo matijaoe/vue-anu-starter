@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+const drawerStore = useDrawerStore()
+</script>
+
 <template>
   <ADrawer
     v-model="drawerStore.isDrawerShown"

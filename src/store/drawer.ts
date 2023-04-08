@@ -1,5 +1,5 @@
 export const useDrawerStore = defineStore('drawer', () => {
-  let isDrawerShown = ref(false)
+  const isDrawerShown = ref(false)
 
   const toggle = () => {
     isDrawerShown.value = !isDrawerShown

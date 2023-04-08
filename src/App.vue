@@ -1,10 +1,5 @@
-<script lang="ts" setup>
-const drawerStore = useDrawerStore()
-</script>
-
 <template>
-
-<TheDrawer />
+  <TheDrawer />
   <main
     container mx-auto p="x-4 y-12" min-h-screen
     text="center base-700 dark:base-200" font-sans

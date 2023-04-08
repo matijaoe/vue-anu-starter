@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { ASwitch } from 'anu-vue'
 import { isDark } from '../composables/dark'
 
 const links = [
@@ -30,7 +31,7 @@ const drawerStore = useDrawerStore()
         on-icon="i-bx-bxs-moon"
         variant="outline"
         color="primary"
-        text-sm
+        class="text-sm"
       />
 
       <a

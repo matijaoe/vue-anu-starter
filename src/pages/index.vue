@@ -2,7 +2,7 @@
 const name = ref('')
 const router = useRouter()
 
-const go = () => {
+function go() {
   if (name) {
     router.push({
       name: 'hi',
@@ -24,7 +24,8 @@ const items = ['Anu', 'UnoCSS', 'Pinia', 'VueUse', 'Auto imports', 'File based r
       <div mt-4 flex="~ wrap gap-2" justify-center>
         <AChip
           v-for="item in items"
-          :key="item" font-mono
+          :key="item"
+          font-mono
           rounded-1
         >
           {{ item }}
@@ -33,7 +34,7 @@ const items = ['Anu', 'UnoCSS', 'Pinia', 'VueUse', 'Auto imports', 'File based r
     </div>
 
     <div flex flex-col gap-4 items-center>
-		<AInput
+      <AInput
         v-model="name"
         class="text-sm"
         w="full sm:50"

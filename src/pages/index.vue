@@ -1,17 +1,17 @@
 <script lang="tsx" setup>
-const name = $ref('')
+const name = ref('')
 const router = useRouter()
 
 const go = () => {
   if (name) {
     router.push({
       name: 'hi',
-      params: { name },
+      params: { name: name.value },
     })
   }
 }
 
-const items = ['Anu', 'UnoCSS', 'Pinia', 'VueUse', 'Vue Macros', 'Auto imports', 'File based routing']
+const items = ['Anu', 'UnoCSS', 'Pinia', 'VueUse', 'Auto imports', 'File based routing']
 </script>
 
 <template>
@@ -33,7 +33,7 @@ const items = ['Anu', 'UnoCSS', 'Pinia', 'VueUse', 'Vue Macros', 'Auto imports',
     </div>
 
     <div flex flex-col gap-4 items-center>
-      <AInput
+		<AInput
         v-model="name"
         class="text-sm"
         w="full sm:50"

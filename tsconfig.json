@@ -19,7 +19,6 @@
     "forceConsistentCasingInFileNames": true,
     "types": [
       "vite/client",
-      "unplugin-vue-macros/macros-global",
       "anu-vue/volar"
     ],
     "paths": {
@@ -30,11 +29,6 @@
         "src/*"
       ]
     }
-  },
-  "vueCompilerOptions": {
-    "plugins": [
-      "@vue-macros/volar/define-model"
-    ]
   },
   "exclude": [
     "dist",

@@ -1,11 +1,11 @@
 export const useDrawerStore = defineStore('drawer', () => {
-  let isDrawerShown = $ref(false)
+  let isDrawerShown = ref(false)
 
   const toggle = () => {
-    isDrawerShown = !isDrawerShown
+    isDrawerShown.value = !isDrawerShown
   }
   const close = () => {
-    isDrawerShown = false
+    isDrawerShown.value = false
   }
 
   const keys = useMagicKeys()
@@ -14,11 +14,8 @@ export const useDrawerStore = defineStore('drawer', () => {
   whenever(cmdB, toggle)
 
   return {
-    isDrawerShown: $$(isDrawerShown),
+    isDrawerShown,
     toggle,
     close,
   }
 })
-
-if (import.meta.hot)
-  import.meta.hot.accept(acceptHMRUpdate(useDrawerStore, import.meta.hot))

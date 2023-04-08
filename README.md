@@ -14,7 +14,6 @@
 - 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 - 🍍 [Pinia](https://pinia.vuejs.org/) - The Vue Store that you will enjoy using
 - 🛠️ [VueUse](https://vueuse.org/) - Collection of essential Vue Composition Utilities
-- 🔮 [Vue Macros](https://vue-macros.sxzz.moe/) - Explore and extend more macros and syntax sugar to Vue
 - 💪🏻 TypeScript
 - 🧹 ESLint / [antfu](https://github.com/antfu/eslint-config)
 - ☁️ Deploy with zero config
@@ -40,8 +39,6 @@
 - [`unplugin-vue-router`](https://github.com/posva/unplugin-vue-router) - Automatic file based routing in with TypeScript support
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - Components auto import
-- [`unplugin-vue-macros`](https://vue-macros.sxzz.moe/) - Explore and extend more macros and syntax sugar to Vue
-
 
 ## Use the template
 

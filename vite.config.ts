@@ -1,6 +1,7 @@
 import { URL, fileURLToPath } from 'node:url'
 import Vue from '@vitejs/plugin-vue'
 import { AnuComponentResolver } from 'anu-vue'
+import postcssNesting from 'postcss-nesting'
 import Unocss from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
@@ -38,7 +39,7 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [
-        require('postcss-nested'),
+        postcssNesting,
       ],
     },
   },

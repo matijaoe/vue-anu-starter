@@ -43,13 +43,13 @@
 ## Use the template
 
 ### GitHub Template
-[Create a repo from this template on GitHub](https://github.com/mat2ja/vue-starter/generate)
+[Create a repo from this template on GitHub](https://github.com/matijaoe/vue-starter/generate)
 
 ### Local
 Clone the template locally, with no git history (powered by [`unjs/giget`](https://github.com/unjs/giget))
 
 ```bash
-npx giget gh:mat2ja/vue-anu-starter <name>
+npx giget gh:matijaoe/vue-anu-starter <name>
 ```
 
 ```bash
@@ -83,5 +83,5 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 ## Related
 
-- 👽 [`vue-starter`](https://github.com/mat2ja/vue-starter)
-- 🧚🏻 [`nuxt-starter`](https://github.com/mat2ja/nuxt-starter)
+- 👽 [`vue-starter`](https://github.com/matijaoe/vue-starter)
+- 🧚🏻 [`nuxt-starter`](https://github.com/matijaoe/nuxt-starter)

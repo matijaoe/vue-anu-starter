@@ -38,7 +38,7 @@ const drawerStore = useDrawerStore()
         icon-btn
         i-bx-bxl-github
         rel="noreferrer"
-        href="https://github.com/mat2ja/vue-anu-starter"
+        href="https://github.com/matijaoe/vue-anu-starter"
         target="_blank"
         title="GitHub"
       />
